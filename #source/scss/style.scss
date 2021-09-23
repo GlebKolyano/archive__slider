@@ -1,0 +1,26 @@
+// Обнуление
+@import "null_style.scss";
+// Миксины
+@import "mixins.scss";
+// Полезные настройки
+@import "ui.scss";
+// Подключаем шрифты
+
+// Шрифты по умолчанию
+$fontfamily: "";
+// Переменные
+
+// Общие параметры
+body {
+  font-family: $fontfamily;
+}
+// Оболочка
+.wrapper {
+}
+// Основная сетка
+.container {
+}
+// Подключение файлов стилей, страниц и элементов
+@import "footer.scss";
+@import "header.scss";
+// Основной блок
